@@ -1,0 +1,20 @@
+Project Title: Work Setup Automation
+
+Project Description:
+The "Work Setup Automation" project is a Python script that automates the process of setting up a work environment by opening specific webpages and applications. 
+It aims to enhance productivity and efficiency by eliminating the need for manual navigation and launching of essential tools.
+
+The script utilizes the webbrowser and os modules in Python to open webpages in a web browser and launch applications, respectively.
+By combining these functionalities, the project provides a streamlined approach to initiating a work session.
+
+The main features of the project include:
+
+Opening a code editor: The script launches a code editor, in this case, Microsoft Visual Studio Code, using the os.startfile function.
+       This allows for quick access to the preferred code editor, enabling users to start coding without additional manual steps.
+
+Opening work-related webpages: The script uses the webbrowser module to open a set of predefined webpages in Google Chrome. 
+       These webpages can include email accounts, productivity tools, project management platforms, or any other web-based resources relevant to the work environment. 
+       The URLs are defined in the URLS tuple, and the wb.get(Chrome_path).open(url) command opens each URL in Google Chrome.
+
+The script provides a convenient way to set up the work environment by automating the launch of essential tools and webpages. 
+Users can customize the URLs and add or remove applications based on their specific work requirements.
