@@ -1,0 +1,21 @@
+# worksetup-auto
+Explanation of the code:
+
+Import necessary modules:
+
+The webbrowser module is imported and assigned an alias wb. This module allows the script to open webpages in a web browser.
+The os module is imported to launch the code editor.
+
+Define the workauto function:
+This function does not take any parameters.
+The codepath variable is set to the path of the code editor executable (Microsoft Visual Studio Code in this case).
+The os.startfile(codepath) command launches the code editor using the default program associated with the file type.
+
+Open work-related webpages:
+The Chrome_path variable is set to the path of the Google Chrome executable.
+The URLS tuple contains the URLs of the work-related webpages to be opened.
+A loop is used to iterate through each URL in the URLS tuple.
+The wb.get(Chrome_path).open(url) command opens each URL in Google Chrome using the webbrowser module.
+
+The combination of launching a code editor and opening specific webpages provides an automated approach to set up the work environment efficiently. 
+Users can modify the code by updating the codepath variable and URLs in the URLS tuple to match their preferred applications and webpages.
